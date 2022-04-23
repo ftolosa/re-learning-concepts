@@ -15,7 +15,7 @@ class BubbleSortTest {
     @Test
     void sort() {
         List<Integer> list = Arrays.asList(91, 85, 1, 5, 84, 75, 17, 20, 101);
-        List<Integer> expectedList = Arrays.asList(1, 5, 17, 20, 84, 85, 91, 101);
+        List<Integer> expectedList = Arrays.asList(1, 5, 17, 20, 75, 84, 85, 91, 101);
         List<Integer> sorted = sortAlgorithm.sort(list);
         assertEquals(expectedList, sorted);
     }
